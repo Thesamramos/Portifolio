@@ -9,15 +9,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Tahoma, Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 20vh 5vw;
+    margin: 10vh 5vw;
     background-color: var(--background--);
 }
 
-.page {
+#page {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,13 +31,13 @@ h1 {
 
 .rect{
     background-color: var(--blue--);
-    width: 13vw;
-    height: 2vh;
+    width: 170px;
+    height: 15px;
     margin-bottom: 7vh;
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--titles--);
 }
 
@@ -59,3 +59,67 @@ img{
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.form_div{
+    margin-top: 20vh;
+}
+
+.contact_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rect2 {
+    width: 250px;
+    height: 5px;
+    margin-top: 1vh;
+    background-color: var(--blue--);
+    display: flex;
+}
+
+form{
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form #email, #name{
+    width: 32vw;
+    height: 6vh;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 3vh;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus, #message:focus{
+    background-color: lightblue;
+}
+
+#message {
+    width: 32vw;
+    border: none;
+    border-radius: 20px;
+    resize: unset;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+#submit {
+    margin-top: 3vh;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--blue--);
+    color: var(--font--);
+}
+
