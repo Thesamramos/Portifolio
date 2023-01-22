@@ -12,15 +12,38 @@
     font-family:Tahoma, Arial, Helvetica, sans-serif;
 }
 
-body {
-    margin: 10vh 5vw;
+body{
     background-color: var(--background--);
 }
 
-#page {
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--blue--);
+    
+}
+
+.list a{
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--font--);
+}
+
+.list a:hover{
+    color: var(--titles--);
+}
+
+#home {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 5vw;
 }
 
 h1 {
