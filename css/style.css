@@ -83,6 +83,36 @@ img{
     font-weight: bold;
 }
 
+#projects{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+}
+
+.card{
+    width: 350px;
+    height: 50vh;
+    margin: 2vw;
+    background-color: var(--font--);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card p{
+    color: black;
+    font-size: 1.5rem;
+}
+
 .form_div{
     margin-top: 20vh;
 }
@@ -221,6 +251,14 @@ input:focus, #message:focus{
 
     .list a:hover{
         color: var(--font--);
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 3vh;
     }
 
 }
