@@ -16,27 +16,6 @@ body{
     background-color: var(--background--);
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    background-color: var(--blue--);
-    
-}
-
-.list a{
-    margin-right: 30px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: var(--font--);
-}
-
-.list a:hover{
-    color: var(--titles--);
-}
-
 #home {
     display: flex;
     align-items: center;
@@ -242,15 +221,6 @@ input:focus, #message:focus{
 
     #submit {
         width: 25vw;
-    }
-
-    .list a{
-        margin-right: 2vw;
-        margin-left: 2.5vw;
-    }
-
-    .list a:hover{
-        color: var(--font--);
     }
 
     .cards{
