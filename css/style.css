@@ -50,6 +50,12 @@ p {
     margin: 2vh 0vw;
 }
 
+span {
+    font-size: 1.5rem;
+    color: var(--font--);
+    margin-right: 5vw;
+}
+
 
 img{
     height: 7vh;
@@ -84,22 +90,14 @@ img{
     background-color: var(--font--);
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .card p{
     color: black;
     font-size: 1.5rem;
-}
-
-.form_div{
-    margin-top: 20vh;
-}
-
-.contact_me{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .rect2 {
@@ -110,50 +108,6 @@ img{
     display: flex;
 }
 
-form{
-    margin: 5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-form #email, #name{
-    width: 32vw;
-    height: 6vh;
-    padding: 15px;
-    border: none;
-    border-radius: 20px;
-    margin-bottom: 3vh;
-    font-size: 1rem;
-    outline: none;
-}
-
-input:focus, #message:focus{
-    background-color: lightblue;
-}
-
-#message {
-    width: 32vw;
-    border: none;
-    border-radius: 20px;
-    resize: unset;
-    padding: 10px;
-    font-size: 1rem;
-    outline: none;
-}
-
-#submit {
-    margin-top: 3vh;
-    width: 10vw;
-    height: 5vh;
-    border: none;
-    border-radius: 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: var(--blue--);
-    color: var(--font--);
-}
 
 @media (max-width: 480px) {
     #home{
@@ -210,18 +164,6 @@ input:focus, #message:focus{
     .languages img {
         margin: 3vw;
     } 
-
-    form #email, #name{
-        width: 90vw;
-    }
-
-    #message {
-        width: 90vw;
-    }
-
-    #submit {
-        width: 25vw;
-    }
 
     .cards{
         flex-direction: column;
