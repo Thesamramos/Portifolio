@@ -85,19 +85,44 @@ img{
 
 .card{
     width: 350px;
-    height: 50vh;
+    height: 45vh;
     margin: 2vw;
     background-color: var(--font--);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.card p{
+.card h3{
+    font-size: 2rem;
+    margin: 20px 0 20px 0;
+}
+
+.card img{
+    height: 100px;
+    margin-left: 20px;
+}
+
+.card a{
+    text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid 1px;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.card a:hover{
+    background-color: var(--blue--);
+    color: var(--font--);
+    transition: 0.3s;
 }
 
 .rect2 {
