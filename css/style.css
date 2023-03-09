@@ -86,8 +86,8 @@ img{
 }
 
 .card{
-    width: 350px;
-    height: 45vh;
+    width: 300px;
+    height: 200px;
     margin: 2vw;
     background-color: var(--font--);
     border-radius: 10px;
@@ -102,11 +102,6 @@ img{
     margin: 20px 0 20px 0;
 }
 
-.card img{
-    height: 100px;
-    margin-left: 20px;
-}
-
 .card a{
     text-decoration: none;
     color: black;
@@ -115,9 +110,8 @@ img{
     margin-top: 20px;
     border: solid 1px;
     border-radius: 10px;
-    width: 100px;
+    width: 180px;
     display: flex;
-    
     justify-content: center;
 }
 
